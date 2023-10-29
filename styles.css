@@ -6,6 +6,8 @@ body {
 header {
     background-color: #354F52;
     color: #fff;
+    font-family: 'Caveat', cursive;
+font-family: 'Judson', serif;
     padding: 10px 0;
     display: flex;
     justify-content: space-between;

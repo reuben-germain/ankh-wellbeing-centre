@@ -97,6 +97,12 @@ nav ul li a {
     background-color: #293B3D;
 }
 
+.hero img {
+    width: 850px;
+    height: 450px;
+    border-radius: 50%;
+    object-fit: cover;
+}
 
 footer {
     background-color: #354F52;

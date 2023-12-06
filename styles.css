@@ -55,6 +55,11 @@ nav ul li a {
     border-radius: 5px;
 }
 
+.cta-button:hover{
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+
 .product-cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -67,6 +72,11 @@ nav ul li a {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     padding: 20px;
+}
+
+.product-card:hover{
+    transform: translateY(-10px);
+    transition: transform 0.3s ease;
 }
 
 .product-card img {
@@ -97,6 +107,7 @@ nav ul li a {
 
 .product-card button:hover {
     background-color: #293B3D;
+    transform: translateY(-5px);
 }
 
 .hero img {

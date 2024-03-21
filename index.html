@@ -16,15 +16,15 @@
 <body>
     <header>
         <div class="logo">
-            <img src="ankh-logo.png" alt="Ankh Wellbeing Centre Logo">
+            <img src="imgs/ankh-logo.png" alt="Ankh Wellbeing Centre Logo">
         </div>
         <h1>Ankh Wellbeing Centre</h1>
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#products">Products</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a class="active" href="index.html">Home<hr></a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -42,27 +42,28 @@
     <!-- Add more sections (featured products, about, contact) as per your design -->
 
     <!-- Product Section -->
+    <h2>Featured Products</h2>
     <section class="product-cards">
         <div class="product-card">
-            <img src="pexels-tabitha-mort-773252.jpg" alt="Photo by Tabitha  Mort: https://www.pexels.com/photo/brown-sliced-soaps-773252/">
+            <img src="imgs/pexels-tabitha-mort-773252.jpg" alt="Photo by Tabitha  Mort: https://www.pexels.com/photo/brown-sliced-soaps-773252/">
             <h2>Organic Soap</h2>
             <p>Nourishing organic soap for healthy skin.</p>
             <button>Buy Now</button>
         </div>
         <div class="product-card">
-            <img src="pexels-dennis-leinarts-1437953.jpg" alt="Photo by Dennis Leinarts: https://www.pexels.com/photo/gray-rocks-with-moss-1437953/">
+            <img src="imgs/pexels-dennis-leinarts-1437953.jpg" alt="Photo by Dennis Leinarts: https://www.pexels.com/photo/gray-rocks-with-moss-1437953/">
             <h2>Sea Moss</h2>
             <p>High-quality sea moss for your daily nutrition.</p>
             <button>Buy Now</button>
         </div>
         <div class="product-card">
-            <img src="pexels-mareefe-678414.jpg" alt="Photo by Mareefe: https://www.pexels.com/photo/assorted-spices-near-white-ceramic-bowls-678414/">
+            <img src="imgs/pexels-mareefe-678414.jpg" alt="Photo by Mareefe: https://www.pexels.com/photo/assorted-spices-near-white-ceramic-bowls-678414/">
             <h2>Herbal Remedies</h2>
             <p>Various herbs for natural healing and wellness.</p>
             <button>Buy Now</button>
         </div>
         <div class="product-card">
-            <img src="pexels-curtis-loy-5112013.jpg" alt="Photo by Curtis Loy: https://www.pexels.com/photo/smiling-african-model-in-dark-blue-turban-5112013/">
+            <img src="imgs/pexels-curtis-loy-5112013.jpg" alt="Photo by Curtis Loy: https://www.pexels.com/photo/smiling-african-model-in-dark-blue-turban-5112013/">
             <h2>African Jewelry</h2>
             <p>Handcrafted African jewelry for a stylish look.</p>
             <button>Buy Now</button>
@@ -73,10 +74,68 @@
 
     <section class="hero">
         <div class="hero-content">
-            <img class="women" src="pexels-elevate-1269029.jpg" alt="Image from Pexels.com of 4 friends chilling at a cocktail bar">
+            <img class="friends" src="imgs/pexels-elevate-1269029.jpg" alt="Image from Pexels.com of 4 friends chilling at a cocktail bar">
         </div>
     </section>
-    
+
+    <!-- Contact Section With Map -->
+
+    <div class="ffbox"> 
+        <div class="ffbox1"> 
+            <h2>Contact Us</h2> 
+            <form> 
+                <label for="fullName"> 
+                    <i class="fa fa-solid fa-user" 
+                       style="margin: 2px;"> 
+                    </i> Full Name: 
+                </label> 
+                <input type="text" 
+                       id="fullName" 
+                       name="fullName" required> 
+  
+                <label for="email"> 
+                    <i class="fa fa-solid fa-envelope" 
+                       style="margin: 2px;"> 
+                    </i> 
+                    Email Address: 
+  
+                </label> 
+                <input type="email"
+                       id="email" 
+                       name="email" required> 
+  
+                <label for="mobile"> 
+                    <i class=" fa fa-solid fa-phone" 
+                       style="margin: 2px;"> 
+                    </i> 
+                    Contact No: 
+                </label> 
+                <input type="tel"
+                       id="mobile" 
+                       name="mobile" required> 
+  
+                <label for="msg"> 
+                    <i class=" fa fa-solid fa-comment" 
+                       style="margin: 2px;"> 
+                    </i> 
+                    Write Message: 
+                </label> 
+                <textarea id="msg" 
+                          name="msg" 
+                          rows="5" required> 
+                </textarea> 
+  
+                <button type="submit"> 
+                    Submit 
+                </button> 
+            </form> 
+        </div> 
+        <div class="map-div"> 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4962.520428996391!2d-0.23994900531797095!3d51.54512733728731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760e2cef97129d%3A0xad9de1442fcb4790!2sAnkh%20Wellbeing%20Centre!5e0!3m2!1sen!2suk!4v1711039756403!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+        </div> 
+    </div> 
+
+    <!-- Footer -->
 
     <footer>
         <div class="footer-content">
@@ -84,11 +143,12 @@
             <a href="https://www.flaticon.com/free-icons/facebook" class="credits" title="facebook icons">Facebook icons created by Pixel perfect - Flaticon</a><br>
         <a href="https://www.flaticon.com/free-icons/instagram" class="credits" title="instagram icons">Instagram icons created by Freepik - Flaticon</a>
             <div class="social-icons">
-                <a href="https://www.facebook.com/AnkhWellbeingCentre/?locale=en_GB"><img src="facebook.png" alt="Facebook"></a>
-                <a href="https://www.instagram.com/ankhwellbeingcentre/?hl=en"><img src="instagram.png" alt="Instagram"></a>
+                <a href="https://www.facebook.com/AnkhWellbeingCentre/?locale=en_GB"><img src="imgs/facebook.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/ankhwellbeingcentre/?hl=en"><img src="imgs/instagram.png" alt="Instagram"></a>
             </div>
         </div>
     </footer>
+    <script src="https://kit.fontawesome.com/2399cec8e4.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

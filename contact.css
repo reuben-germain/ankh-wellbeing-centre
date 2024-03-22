@@ -47,6 +47,34 @@ nav ul li a:hover {
     width: 22%;
 }
 
+/* Table Section */
+table {
+    background-color: black;
+    width: 700px;
+}
+th {
+    width: 100px;
+}
+
+tr {
+    background-color: grey;
+}
+
+#second-row {
+    background-color: lightgrey;
+    text-align: center;
+}
+
+/* Phone Section */
+a {
+    color: #ff2121;
+    text-decoration: none;
+}
+a[href^="tel:"]::before {
+    content: "\260e";
+    margin-right: 10px;
+}
+
 /* Contact Form With Map */
 .ffbox {
     display: flex;
@@ -93,7 +121,16 @@ button:hover {
 
 .map-div {
     background-color: #f9f9f9; /* Example background color */
-    padding: 20px;
+    padding-bottom: 30%;
+    position: relative;
+}
+
+.map-div iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
 }
 
 @media screen and (max-width: 600px) {

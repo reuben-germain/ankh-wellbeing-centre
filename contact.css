@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -41,6 +45,61 @@ nav ul li a:hover {
 .active hr {
     margin: 0;
     width: 22%;
+}
+
+/* Contact Form With Map */
+.ffbox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.ffbox > div {
+    flex: 1;
+    min-width: 300px; /* Adjust as needed */
+    margin: 10px;
+}
+
+.ffbox1 {
+    background-color: #f0f0f0; /* Example background color */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.ffbox1 label {
+    display: flex;
+    align-items: center;
+}
+.ffbox1 input,
+.ffbox1 textarea {
+    margin-top: 5px;
+    width: 80%;
+    line-height: 15px;
+    padding: 10px;
+}
+form button {
+    display: block;
+    background-color: #354F52;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #F9C80E;
+    color: #354f52;
+}
+
+.map-div {
+    background-color: #f9f9f9; /* Example background color */
+    padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .ffbox > div {
+        flex-basis: 100%;
+    }
 }
 
 footer {

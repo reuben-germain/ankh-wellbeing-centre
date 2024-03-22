@@ -46,7 +46,7 @@ nav ul li a:hover {
 }
 .row {
     text-align: center;
-    width: 50%;
+    width: 30%;
     margin: 0 auto;
 }
 
@@ -81,6 +81,16 @@ nav ul li a:hover {
 .column-3 {
     flex: 50%;
     padding: 10px;
+}
+
+img {
+    display: block;
+    width: 20rem;
+    height: 15.625rem;
+    object-fit: cover;
+    object-position: right;
+    border-radius: 20px;
+    margin-left: 25%;
 }
 
 footer {

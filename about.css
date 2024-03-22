@@ -6,21 +6,22 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/* Header Section */
 header {
     background-color: #354F52;
     color: #fff;
     font-family: 'Caveat', cursive;
     font-family: 'Judson', serif;
-    padding: 10px 0;
+    padding: 0.625rem 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .logo img {
-    width: 50px;
-    height: 50px;
-    margin-left: 20px;
+    width: 3.125rem;
+    height: 3.125rem;
+    margin-left: 1.25rem;
 }
 
 nav ul {
@@ -29,7 +30,7 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 20px;
+    margin: 0 1.25rem;
 }
 
 nav ul li a {
@@ -44,6 +45,8 @@ nav ul li a:hover {
     margin: 0;
     width: 22%;
 }
+
+/* Main Section */
 .row {
     text-align: center;
     width: 30%;
@@ -58,7 +61,18 @@ nav ul li a:hover {
 
 .column {
     flex: 0%;
-    padding: 20px;
+    padding: 1.25rem;
+}
+
+.container-1 {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.column-1 {
+    flex: 0%;
+    padding: 1.25rem;
 }
 
 .container-2 {
@@ -69,7 +83,7 @@ nav ul li a:hover {
 
 .column-2 {
     flex: 50%;
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 .container-3 {
@@ -80,25 +94,38 @@ nav ul li a:hover {
 
 .column-3 {
     flex: 50%;
-    padding: 10px;
+    padding: 0.625rem;
 }
 
-img {
+.container-4 {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.column-4 {
+    flex: 0%;
+    padding: 1.25rem;
+}
+
+.image {
     display: block;
     width: 20rem;
+    min-width: 25rem;
     height: 15.625rem;
     object-fit: cover;
     object-position: right;
-    border-radius: 20px;
-    margin-left: 25%;
+    border-radius: 1.25rem;
+    margin: 0 auto;
 }
 
+/* Footer Section */
 footer {
     background-color: #354F52;
     font-size: 25px;
     color: #fff;
     text-align: center;
-    padding: 40px 20px;
+    padding: 2.5rem 1.25rem;
 }
 
 .credits{

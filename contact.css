@@ -47,10 +47,36 @@ nav ul li a:hover {
     width: 22%;
 }
 
+h2 {
+    margin-left: 10px;
+    text-align: center;
+}
+
+.add-pho {
+    display: flex;
+    gap: 100px;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+address {
+    margin-left: 10px;
+    margin-top: 16px;
+}
+
 /* Table Section */
+.store-hrs {
+display: flex;
+text-align: center;
+padding: 50px;
+justify-content: center;
+align-items: center;
+}
 table {
     background-color: black;
     width: 700px;
+    margin-left: 10px;
 }
 th {
     width: 100px;
@@ -66,6 +92,9 @@ tr {
 }
 
 /* Phone Section */
+.phone {
+    margin-left: 10px;
+}
 a {
     color: #ff2121;
     text-decoration: none;
@@ -120,7 +149,7 @@ button:hover {
 }
 
 .map-div {
-    background-color: #f9f9f9; /* Example background color */
+    background-color: #f9f9f9;
     padding-bottom: 30%;
     position: relative;
 }

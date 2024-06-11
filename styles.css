@@ -48,6 +48,8 @@ nav ul li a:hover {
     width: 22%;
 }
 
+/* Hero Section */
+
 .hero {
     background-color: #F9C80E;
     color: #354F52;
@@ -401,7 +403,7 @@ footer {
     }
 
     .product-cards {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         gap: 10px;
     }
 }
